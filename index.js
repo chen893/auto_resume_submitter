@@ -124,8 +124,8 @@ const phoneNumber = "156xxxx24";
       console.log("发生错误", error);
     }
   }
-  console.log("沟通成功:", successTotal);
+  console.log("沟通成功:", successCount);
   console.log("之前已经沟通:", communicationCount);
-  console.log("沟通失败:", failTotal);
+  console.log("沟通失败:", failCount);
   // await browser.close();
 })({ defaultUrl, phoneNumber, mode });
