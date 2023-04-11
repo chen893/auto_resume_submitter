@@ -14,7 +14,7 @@ const defaultUrl = 'https://www.zhipin.com/web/geek/job?query=%E5%89%8D%E7%AB%AF
 
 ```javascript
 const mode = 1; 
-const phoneNumber = '15673596424';
+const phoneNumber = '156xxxx6424';
 ```
 
 ## 微信登陆
