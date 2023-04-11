@@ -2,10 +2,10 @@ const { resolve } = require("path");
 const puppeteer = require("puppeteer");
 
 const defaultUrl =
-  "https://www.zhipin.com/web/geek/job?query=%E5%89%8D%E7%AB%AF&city=101210100&experience=108,102,101,103&page=1"; // 包含筛选条件的URL页面。
+  "https://www.zhipin.com/web/geek/job?query=%E5%89%8D%E7%AB%AF&city=101210100&experience=108,102,101,103&page=2"; // 包含筛选条件的URL页面。
 const mode = 0; // 1为手机验证码登陆，0为微信登陆
 const phoneNumber = "156xxxx24";
-const concurrency_limit = 1
+const concurrency_limit = 1;
 
 (async ({ defaultUrl, mode, phoneNumber, concurrency_limit }) => {
   const browser = await puppeteer.launch({ headless: false });
